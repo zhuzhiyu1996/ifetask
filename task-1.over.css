@@ -1,0 +1,72 @@
+/* CSS Document */
+/*@charset "UTF-8";*/
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-30 17:37:11
+ * @version $Id$
+ */
+ *{
+ 	margin:0;
+ }
+#head{
+	width: 240px; height: 80px;
+	margin-top: 50px;margin-left: 50%;
+	transform: translate(-120px,0);
+	background: #4e00b7;
+	background: linear-gradient(to bottom,#4e00b7,#a82df0);
+	text-align: center;
+	line-height: 80px;
+	border-radius: 15px;
+	color: white;
+	transition: all 2.5s ease-in-out;
+}
+#head span{
+	position: absolute;
+}
+#head #span1{
+	display: block;
+	width: 120px;height: 8px;
+	margin-top: 10px;margin-left: 50%;
+	transform: translate(-120px,0);
+	background: #902df0;
+	border-radius: inherit;
+	transition: width 1s ease-in-out;
+	border:none;
+}
+#head #span1-1{
+	display: block;
+	width: 0;height: 8px;
+	margin-top: 10px;margin-left: 50%;
+	transform: translate(-121px,0);
+	background: white;
+	border-radius: inherit;
+	border:none;
+	transition: width .5s ease-in-out;
+}
+#head #span2{
+	display: block;
+	width: 120px;height: 8px;
+	margin-top: 10px;margin-left: 50%;
+	background: #902df0;
+	border-radius: inherit;
+	transition: width .5s ease-in-out;
+}
+#button1{
+	width: 160px;height: 40px;
+	margin-top: 50px;margin-left: 50%;
+	transform: translate(-80px,0);
+	border-radius: 15px;
+	color: white;
+	background: #a82df0;
+	font-size: 16px;
+}
+/*#button2{
+	width: 160px;height: 40px;
+	margin-top: 20px;margin-left: 50%;
+	transform: translate(-80px,0);
+	border-radius: 12px;
+	color: white;
+	background: #902df0;
+	font-size: 16px;
+}*/
