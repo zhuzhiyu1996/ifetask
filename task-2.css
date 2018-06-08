@@ -1,0 +1,44 @@
+/* CSS Document */
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-06-08 22:11:18
+ * @version $Id$
+ */
+*{
+	margin: 0;padding: 0;border: 0;
+}
+div{
+	width: 70px;height: 80px;
+	margin-top:80px;margin-left:70px; 
+	float:left;
+	background: #c4e3cb;
+	text-align: center;line-height: 80px;
+	font-size:18px;color: white;
+}
+#div1{
+	-webkit-transform: skewX(30deg);
+	-moz-transform: skewX(30deg);
+	transform: skewX(30deg);
+}
+#div2{
+	-webkit-transform: scaleX(0.5);
+	-moz-transform: scaleX(0.5);
+	transform: scaleX(0.5);
+}
+#div3{
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+#div4{
+	-webkit-transform: translate(10px,40px);
+	-moz-transform: translate(10px,40px);
+	transform: translate(10px,40px);
+}
+#div5{
+	-webkit-transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px,40px);
+	-moz-transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px,40px);
+	transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px,40px);
+}
